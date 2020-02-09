@@ -1,0 +1,22 @@
+div + p {
+    color: red;
+}
+
+section > p {
+    color: green;
+}
+
+div p {
+    color: blue;
+}
+
+h1 ~ div {
+    color: chartreuse;
+}
+
+.box-model-test1 {
+    /* padding: 10px 20px 30px 40px; */
+    /* border: 2px solid black; */
+    margin: 40px 30px 20px 10px;
+    background-color: aqua;
+}
